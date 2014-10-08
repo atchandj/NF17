@@ -1,0 +1,120 @@
+/*Global*/
+h1 {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+/*Index*/
+.index-button {
+	display: block;
+	margin: 0.8em auto;
+}
+
+/*Bon de commande*/
+#bc-page-content {
+	position: relative;
+	width: 400px;
+	margin: 1.2em auto;
+	z-index: 1;
+}
+#modele-search-segment {
+	display: none;
+	border: 1px solid #81817e;
+	background: #d3d2c9;
+	width: 90%;
+	position: relative;
+	padding: 1em 0.5em 1em 0.5em;
+	margin: 1.2em auto;
+	top: -280px;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
+	z-index: 2;
+}
+.cmcontent-block {
+	position: relative;
+	margin: 1.2em 0 0.5em 0;
+}
+.cmcontent-inline-block {
+	position: relative;
+	margin: 0.5em;
+}
+#modele-search-form {
+	margin-bottom: 1em;
+}
+#modele-list-tab {
+	border-collapse: collapse;
+	width: 100%;
+}
+#modele-list-tab td {
+	text-align: center;
+}
+
+/*Facture*/
+.filter-input {
+	display: inline-block;
+	margin: 10px;
+}
+#num-operation-block {
+	display: none;	/*In initial case, we can't see the text box of num-operation*/
+}
+#facture-tab {
+	border-collapse: collapse;
+	width: 100%;
+}
+#facture-tab td {
+	text-align: center;
+}
+#tab-title {
+	display: none;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-style: italic;
+	text-decoration: underline;
+	font-size: 1.6em;
+}
+
+/*Facturation*/
+#vp-page-content {
+	position: relative;
+	width: 400px;
+	margin: 1.2em auto;
+	z-index: 1;
+}
+.content-block {
+	position: relative;
+	margin: 1.2em 0 0.5em 0;
+}
+.cpcontent-block {
+	position: relative;
+	margin: 1.2em 0 0.5em 0;
+}
+.cpcontent-inline-block {
+	position: relative;
+	margin: 0.5em;
+}
+#produit-search-segment {
+	display: none;
+	border: 1px solid #81817e;
+	background: #d3d2c9;
+	width: 90%;
+	position: relative;
+	padding: 1em 0.5em 1em 0.5em;
+	margin: 1.2em auto;
+	top: -400px;
+    -webkit-box-shadow: 0px 0px 10px #000;
+    -moz-box-shadow: 0px 0px 10px #000;
+    box-shadow: 0px 0px 10px #000;
+	z-index: 2;
+}
+#produit-search-form {
+	margin-bottom: 1em;
+}
+#produit-list-tab {
+	border-collapse: collapse;
+	width: 100%;
+}
+#produit-list-tab td {
+	text-align: center;
+}
